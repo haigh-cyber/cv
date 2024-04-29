@@ -17,262 +17,170 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Haigh Minassian",
+  initials: "HM",
+  location: "Sydney, NSW, Australia",
+  locationLink: "https://www.google.com/maps/place/Sydney+NSW/@-33.8464886,150.2725555,9z/data=!3m1!4b1!4m6!3m5!1s0x6b129838f39a743f:0x3017d681632a850!8m2!3d-33.8688197!4d151.2092955!16zL20vMDZ5NTc?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Cybersecurity professional and python programmer",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Cyber Security Analyst and Level 1 Security Operations Centre (SOC) Analyst, with 2 years of experience in Telecommunications and a Cyber Security Service provider.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/21278320?s=400&u=2fdda260ac0573365e74dc5a93bd60a034fde21d&v=4",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "haighminassian01@gmail.com",
+    tel: "+61424628160",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/haigh-cyber",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/bjarocki/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Technology Sydney",
+      degree: "Bachelor's Degree in Information Technology",
+      start: "2020",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Gridware",
+      link: "https://www.gridware.com.au/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Intern",
+      start: "July 2023",
+      end: "December 2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Selected from 800 applicants. Internship covered Offensive Security, Governance Risk and Compliance and Incident Response departments.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "IPSTAR Australia",
+      link: "https://ipstarbroadband.com.au/",
+      badges: ["Hybrid"],
+      title: "Network Service Desk analyst / Level 1 SOC analyst ",
+      start: "March 2022",
+      end: "August 2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Network and technical support utilizing satellite, fixed line, and fixed wireless services through ticket resolution, online chat interactions, and calls. As well as Used Microsoft Defender to enhance threat detection and response capabilities.",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+
+    "Python",
+    "Nmap",
+    "Wireshark",
+    "Hashcat",
+    "Gobuster",
+    "Microsoft 365 Suite",
+    "Microsoft Defender",
+    "Linux/Windows/Mac",
+    "Nessus",
+    "Burp Suite",
+    "Metasploit",
+    "Active Directory",
+    "Bash command line",
+    "Powershell",
+    "SQL",
+    "VMware",
+    "Selenium",
+    "Flask",
+    "Numpy",
+    "Matplotlib",
+    "API request and creating",
+    "Pandas",
+    "WTForms",
+    "Tkinter",
+    "SQLAlchemy",
   ],
+
+
+
   projects: [
     {
-      title: "Consultly",
+      title: "Password Management Application",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Python",
+        "Tkinter",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Local password management storage",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: " ",
+        href: "https://github.com/haigh-cyber/Password-Management-Application",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
+    }
+  ],
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+  HTB: [
+    {
+      title: "Headless",
+      techStack: ["Burp Suite","XSS Exploitation","Reverse Shell Techniques","Sudo Priviledge Exploitation"],
+      description: "I gained root access on the Headless box by exploiting an XSS vulnerability to access the admin dashboard, initiating a reverse shell, and modifying a script that I could run with sudo to escalate my privileges",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "Read more",
+        href: "https://haighs.notion.site/Headless-38032d949e2d4c8281d1c07135db7296?pvs=4",
+      },
+    },
+    // More HTB write-ups can be added here...
+    {
+      title: "SolidState",
+      techStack: ["Nmap", "GoBuster", "Default Credentials", "SSH"],
+      description: "Exploiting default credentials on the JAMES Remote Administration Tool to gain root access, which allowed me to retrieve user SSH credentials and capture the user-level flag.",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/SolidState-37ede840825a4a8aafc2512dd71bee9d?pvs=4",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "Keeper",
+      techStack: ["Nmap", "Web Hosts File Modification", "KeePass","SSH", "PuttyGen"],
+      description: "I secured user and root flags on the Keeper box after finding web credentials, using them to uncover an SSH key through KeePass exploits, and then accessing the system as root.",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "Read more",
+        href: "https://haighs.notion.site/Keeper-074f04e145074f9586367559fe1711b3?pvs=4",
+      },
+    },
+
+    {
+      title: "Nibbles",
+      techStack: ["Nmap", "Burp Suite", "Gobuster","Bash Scripting", "PHP Reverse Shell"],
+      description: "I exploited weak admin credentials and script vulnerabilities on the Nibbles box to upload a reverse shell, eventually gaining root access to retrieve both user and root flags.",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Nibbles-b102e55e7c914ef5928a2783b03ede45?pvs=4",
+      },
+    },
+
+    {
+      title: "Bashed",
+      techStack: ["Nmap", "Gobuster","Nikto", "PHP Reverse Shell"],
+      description: "I gained root on the Bashed box by exploiting a web shell in a writable script within the '/dev' directory and scheduling a reverse shell as a root-owned task.",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Bashed-e1ae1c3c5902499cb175deb0b69f61ab?pvs=4",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "Shocker",
+      techStack: ["CVE Exploitation ", "Python","Gobuster", "Nmap"],
+      description: "I exploited the Shellshock vulnerability in 'user.sh' on the Shocker box, gaining user access and then leveraging 'scriptmanager's sudo privileges to run a script as root and capture the root flag.",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "Read more",
+        href: "https://haighs.notion.site/Shocker-053848766c784f029bdc0661a4069c2e?pvs=4",
       },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
+
+
+
 } as const;
