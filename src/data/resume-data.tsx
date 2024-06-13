@@ -119,6 +119,18 @@ export const RESUME_DATA = {
         href: "https://github.com/haigh-cyber/Password-Management-Application",
       },
     }
+    ,
+    {
+      title: "Penetration Testing Report Automation",
+      techStack: [
+        "Python"
+      ],
+      description: "A terminal-based program designed to streamline the reporting process for security engagements.",
+      link: {
+        label: " ",
+        href: "https://github.com/haigh-cyber/Pentest-Report-Automation",
+      },
+    }
   ],
 
   HTB: [
