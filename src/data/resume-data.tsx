@@ -139,7 +139,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Incident Report Analysis: DDoS Attack Response and Improvement Plan",
+      title: "Incident Report Analysis",
       techStack: ["Inident Response"],
       description: "Analysed and responded to a Distributed Denial of Service (DDoS) attack using the NIST Cybersecurity Framework",
       link: {
@@ -148,7 +148,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Investigating Security Incidents through Targeted SQL Query Filters",
+      title: "Investigating Security Incidents using SQL Query Filters",
       techStack: ["SQL"],
       description: "Developed and implemented SQL queries with specific filters to investigate security incidents",
       link: {
