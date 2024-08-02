@@ -122,15 +122,49 @@ export const RESUME_DATA = {
     ,
     {
       title: "Penetration Testing Report Automation",
-      techStack: [
-        "Python"
-      ],
+      techStack: ["Python"],
       description: "A terminal-based program designed to streamline the reporting process for security engagements.",
       link: {
         label: " ",
         href: "https://github.com/haigh-cyber/Pentest-Report-Automation",
       },
-    }
+    },
+    {
+      title: "Log Analysis and Report",
+      techStack: ["Log Analysis"],
+      description: "Analysed an incident involving malware downloaded from an infected webserver",
+      link: {
+        label: " ",
+        href: "https://drive.google.com/drive/folders/1UiPYAVVNKF87zMBYi1lc8sd4UG2u4SiB?usp=drive_link",
+      },
+    },
+    {
+      title: "Incident Report Analysis: DDoS Attack Response and Improvement Plan",
+      techStack: ["Inident Response"],
+      description: "Analysed and responded to a Distributed Denial of Service (DDoS) attack using the NIST Cybersecurity Framework",
+      link: {
+        label: " ",
+        href: "https://docs.google.com/document/d/1b4dTUHMt6f6TTQID1VdqemyXb6yN1K0BfuHJWItD4nU/edit?usp=sharing",
+      },
+    },
+    {
+      title: "Investigating Security Incidents through Targeted SQL Query Filters",
+      techStack: ["SQL"],
+      description: "Developed and implemented SQL queries with specific filters to investigate security incidents",
+      link: {
+        label: " ",
+        href: "https://docs.google.com/document/d/1f63LkhvmfYnr1MM7O1uCRS20dr25QOIqqyBsnvbKdHc/edit?usp=sharing",
+      },
+    },
+    {
+      title: "Linux Firewall Configuration using iptables",
+      techStack: ["Linux", "iptables"],
+      description: "Configuration and management of a Linux firewall using iptables for securing a server by defining rules for incoming and outgoing traffic",
+      link: {
+        label: " ",
+        href: "https://docs.google.com/document/d/1m1a_4WUrnUoapo-YFaKrfAhjC65Ts0RQIYFvBl6NB9w/edit?usp=sharing",
+      },
+    },
   ],
 
   HTB: [
