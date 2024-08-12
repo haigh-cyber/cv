@@ -165,6 +165,15 @@ export const RESUME_DATA = {
         href: "https://docs.google.com/document/d/1m1a_4WUrnUoapo-YFaKrfAhjC65Ts0RQIYFvBl6NB9w/edit?usp=sharing",
       },
     },
+    {
+      title: "Monitoring Logs using Splunk Security Enterprise",
+      techStack: ["Splunk", "Log Analysis", "Reporting", "Visualisation"],
+      description: "Monitoring and analysing SSH login attempts using Splunk Security Enterprise to enhance security and detect potential threats",
+      link: {
+        label: " ",
+        href: "https://docs.google.com/document/d/1ZrmjO8Hkeiu7o0_m-9rxqTJm1uSSa-snzEUIKjsT0gA/edit?usp=sharing",
+      },
+    },
   ],
 
   HTB: [
