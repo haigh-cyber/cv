@@ -180,7 +180,7 @@ export const RESUME_DATA = {
     {
       title: "Headless",
       techStack: ["Burp Suite","XSS Exploitation","Reverse Shell Techniques","Sudo Priviledge Exploitation"],
-      description: "^Click me^",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Headless-38032d949e2d4c8281d1c07135db7296?pvs=4",
@@ -190,7 +190,7 @@ export const RESUME_DATA = {
     {
       title: "PermX",
       techStack: ["Fuff","Subdomain discovery","Reverse php Shell","Symlink", "OSINT", "Nmap"],
-      description: "^Click me^",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/PermX-42762e9e8163423dbdb4529b0b94b81d",
@@ -200,8 +200,8 @@ export const RESUME_DATA = {
 
     {
       title: "BoardLight",
-      techStack: ["Gobuster","Nmap","Ffuf","Burp Suite", "OSINT", "PHP code injection", "SUID binary exploitation"],
-      description: "^Click me^",
+      techStack: ["Gobuster","Nmap","Burp Suite", "OSINT", "PHP code injection", "SUID binary exploitation"],
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Boardlight-c05b923ef7fc424b8f093ceb1a47d47e?pvs=25",
@@ -213,7 +213,7 @@ export const RESUME_DATA = {
     {
       title: "Greenhorn",
       techStack: ["Nmap","Directory Traversal","John The Ripper","Netcat","Depix", "OSINT"],
-      description: "^Click me^",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Greenhorn-81bba3f098b04f7497870c13dbdfeebf?pvs=25",
@@ -223,8 +223,8 @@ export const RESUME_DATA = {
 
     {
       title: "Usage",
-      techStack: ["SQL Injection","Sqlmap","John The Ripper","Unristricted File Upload Exploited", "Client Side Filter Bypass", "Port Forwarding"],
-      description: "^Click me^",
+      techStack: ["SQL Injection","Sqlmap","John The Ripper","Unristricted File Upload", "Client Side Filter Bypass", "Port Forwarding"],
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Usage-8667a50ed9194801b91640faca7b7c28?pvs=25",
@@ -233,8 +233,8 @@ export const RESUME_DATA = {
 
     {
       title: "Perfection",
-      techStack: ["Gobuster","Server Side Template Injection Vulnerbility","Command Line Injection","SQL", "Hashcat"],
-      description: "^Click me^",
+      techStack: ["Gobuster","SSTI Vulnerability","Command Line Injection","SQL", "Hashcat"],
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Perfection-69ece10265704850a9f61da594596d84",
@@ -246,7 +246,7 @@ export const RESUME_DATA = {
     {
       title: "SolidState",
       techStack: ["Nmap", "GoBuster", "Default Credentials", "SSH"],
-      description: "Exploiting default credentials on the JAMES Remote Administration Tool to gain root access, which allowed me to retrieve user SSH credentials and capture the user-level flag.",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/SolidState-37ede840825a4a8aafc2512dd71bee9d?pvs=4",
@@ -255,7 +255,7 @@ export const RESUME_DATA = {
     {
       title: "Keeper",
       techStack: ["Nmap", "Web Hosts File Modification", "KeePass","SSH", "PuttyGen"],
-      description: "I secured user and root flags on the Keeper box after finding web credentials, using them to uncover an SSH key through KeePass exploits, and then accessing the system as root.",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Keeper-074f04e145074f9586367559fe1711b3?pvs=4",
@@ -265,7 +265,7 @@ export const RESUME_DATA = {
     {
       title: "Nibbles",
       techStack: ["Nmap", "Burp Suite", "Gobuster","Bash Scripting", "PHP Reverse Shell"],
-      description: "I exploited weak admin credentials and script vulnerabilities on the Nibbles box to upload a reverse shell, eventually gaining root access to retrieve both user and root flags.",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Nibbles-b102e55e7c914ef5928a2783b03ede45?pvs=4",
@@ -275,7 +275,7 @@ export const RESUME_DATA = {
     {
       title: "Bashed",
       techStack: ["Nmap", "Gobuster","Nikto", "PHP Reverse Shell"],
-      description: "I gained root on the Bashed box by exploiting a web shell in a writable script within the '/dev' directory and scheduling a reverse shell as a root-owned task.",
+      description: " ",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Bashed-e1ae1c3c5902499cb175deb0b69f61ab?pvs=4",
@@ -284,7 +284,7 @@ export const RESUME_DATA = {
     {
       title: "Shocker",
       techStack: ["CVE Exploitation ", "Python","Gobuster", "Nmap"],
-      description: "I exploited the Shellshock vulnerability in 'user.sh' on the Shocker box, gaining user access and then leveraging 'scriptmanager's sudo privileges to run a script as root and capture the root flag.",
+      description: "",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Shocker-053848766c784f029bdc0661a4069c2e?pvs=4",
