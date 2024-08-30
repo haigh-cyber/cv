@@ -27,11 +27,11 @@ export const RESUME_DATA = {
   about:
     "Cybersecurity professional and python programmer",
   summary:
-    "Cyber Security Analyst and Level 1 Security Operations Centre (SOC) Analyst, with 2 years of experience in Telecommunications and a Cyber Security Service provider.",
+    "Cyber Security Analyst, with 2 years of experience in Telecommunications and a Cyber Security Service provider.",
   avatarUrl: "https://avatars.githubusercontent.com/u/21278320?s=400&u=2fdda260ac0573365e74dc5a93bd60a034fde21d&v=4",
   contact: {
     email: "haighminassian01@gmail.com",
-    tel: "+61424628160",
+    tel: "+6100000000",
     social: [
       {
         name: "GitHub",
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       company: "IPSTAR Australia",
       link: "https://ipstarbroadband.com.au/",
       badges: ["Hybrid"],
-      title: "Network Service Desk analyst / Level 1 SOC analyst ",
+      title: "Network Service Desk analyst / Endpoint Security ",
       start: "March 2022",
       end: "August 2023",
       description:
@@ -180,12 +180,68 @@ export const RESUME_DATA = {
     {
       title: "Headless",
       techStack: ["Burp Suite","XSS Exploitation","Reverse Shell Techniques","Sudo Priviledge Exploitation"],
-      description: "I gained root access on the Headless box by exploiting an XSS vulnerability to access the admin dashboard, initiating a reverse shell, and modifying a script that I could run with sudo to escalate my privileges",
+      description: "^Click me^",
       link: {
         label: "Read more",
         href: "https://haighs.notion.site/Headless-38032d949e2d4c8281d1c07135db7296?pvs=4",
       },
     },
+
+    {
+      title: "PermX",
+      techStack: ["Fuff","Subdomain discovery","Reverse php Shell","Symlink", "OSINT", "Nmap"],
+      description: "^Click me^",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/PermX-42762e9e8163423dbdb4529b0b94b81d",
+      },
+    },
+
+
+    {
+      title: "BoardLight",
+      techStack: ["Gobuster","Nmap","Ffuf","Burp Suite", "OSINT", "PHP code injection", "SUID binary exploitation"],
+      description: "^Click me^",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Boardlight-c05b923ef7fc424b8f093ceb1a47d47e?pvs=25",
+      },
+    },
+
+
+
+    {
+      title: "Greenhorn",
+      techStack: ["Nmap","Directory Traversal","John The Ripper","Netcat","Depix", "OSINT"],
+      description: "^Click me^",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Greenhorn-81bba3f098b04f7497870c13dbdfeebf?pvs=25",
+      },
+    },
+
+
+    {
+      title: "Usage",
+      techStack: ["SQL Injection","Sqlmap","John The Ripper","Unristricted File Upload Exploited", "Client Side Filter Bypass", "Port Forwarding"],
+      description: "^Click me^",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Usage-8667a50ed9194801b91640faca7b7c28?pvs=25",
+      },
+    },
+
+    {
+      title: "Perfection",
+      techStack: ["Gobuster","Server Side Template Injection Vulnerbility","Command Line Injection","SQL", "Hashcat"],
+      description: "^Click me^",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Perfection-69ece10265704850a9f61da594596d84",
+      },
+    },
+
+
     // More HTB write-ups can be added here...
     {
       title: "SolidState",
