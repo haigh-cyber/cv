@@ -178,6 +178,15 @@ export const RESUME_DATA = {
 
   HTB: [
     {
+      title: "Editorial",
+      techStack: ["Burp Suite","SSRF Exploitation","Git","OSINT","Python Scripting"],
+      description: " ",
+      link: {
+        label: "Read more",
+        href: "https://haighs.notion.site/Editorial-194fe06a688b45b0abcb2f693c7e0211",
+      },
+    },
+    {
       title: "Headless",
       techStack: ["Burp Suite","XSS Exploitation","Reverse Shell Techniques","Sudo Priviledge Exploitation"],
       description: " ",
